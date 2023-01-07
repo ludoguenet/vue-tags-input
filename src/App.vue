@@ -20,7 +20,7 @@
     <input
         class="h-8 focus:outline-none"
         type="text"
-        v-on:keydown.enter.,="addTag"
+        v-on:keyup.enter.,="addTag"
         v-on:keydown.delete="removeTag"
     >
   </div>
